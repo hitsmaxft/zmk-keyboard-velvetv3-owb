@@ -1,0 +1,11 @@
+#include "../velvetv3_owb/velvetv3_owb.dtsi"
+
+/ {
+    chosen { zmk,kscan = &velvetv3_owb_mock_kscan; };
+    velvetv3_owb_mock_kscan: kscan {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};

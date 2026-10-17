@@ -1,0 +1,13 @@
+#include "velvetv3_owb.dtsi"
+#include "velvetv3_owb_kscan.dtsi"
+
+&velvetv3_owb_transform {
+    col-offset = <6>;
+};
+
+&velvetv3_owb_kscan {
+        // Right: D10=C1, D16=C2, D14=C3, D15=C4, A0=C5, A1=C6.
+        col-gpios = <&gpio0 9 GPIO_ACTIVE_HIGH>, <&gpio0 10 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 11 GPIO_ACTIVE_HIGH>, <&gpio1 13 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 15 GPIO_ACTIVE_HIGH>, <&gpio0 2 GPIO_ACTIVE_HIGH>;
+};

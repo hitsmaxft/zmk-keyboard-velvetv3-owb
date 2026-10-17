@@ -1,0 +1,48 @@
+/* SPDX-License-Identifier: MIT
+ * XIAO ST7789 + CST816S hardware adapted from t-ogura/prospector-zmk-module (MIT).
+ * MIPI DBI dc-gpios is data-high; this was physically validated on this panel.
+ */
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/pwm/pwm.h>
+/ {
+    chosen { zephyr,display = &st7789; zmk,touch = &theme_touch; };
+    pwmleds { compatible = "pwm-leds";
+        disp_bl: pwm_led_1 { pwms = <&pwm1 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>; };
+    };
+    mipi_dbi {
+        compatible = "zephyr,mipi-dbi-spi";
+        spi-dev = <&spi3>;
+        dc-gpios = <&xiao_d 7 GPIO_ACTIVE_HIGH>;
+        reset-gpios = <&xiao_d 3 GPIO_ACTIVE_LOW>;
+        write-only;
+        #address-cells = <1>; #size-cells = <0>;
+        st7789: st7789v@0 {
+            compatible = "sitronix,st7789v";
+            /* nRF SPIM rounds 30 MHz DOWN to 16 MHz. Select the real 32 MHz bin. */
+            reg = <0>; mipi-max-frequency = <32000000>; mipi-mode = "MIPI_DBI_MODE_SPI_4WIRE";
+            width = <280>; height = <240>; x-offset = <20>; y-offset = <0>;
+            vcom = <0x19>; gctrl = <0x35>; vrhs = <0x12>; vdvs = <0x20>;
+            mdac = <0x60>; gamma = <0x01>; colmod = <0x05>; lcm = <0x2c>;
+            porch-param = [0c 0c 00 33 33]; cmd2en-param = [5a 69 02 01];
+            pwctrl1-param = [a4 a1]; pvgam-param = [D0 04 0D 11 13 2B 3F 54 4C 18 0D 0B 1F 23];
+            nvgam-param = [D0 04 0C 11 13 2C 3F 44 51 2F 1F 1F 20 23];
+            ram-param = [00 F0]; rgb-param = [CD 08 14];
+        };
+    };
+};
+&spi2 { status = "disabled"; };
+&uart0 { status = "disabled"; };
+&pinctrl {
+    theme_spi_default: theme_spi_default { group1 { psels = <NRF_PSEL(SPIM_SCK,1,13)>, <NRF_PSEL(SPIM_MOSI,1,15)>; }; };
+    theme_spi_sleep: theme_spi_sleep { group1 { psels = <NRF_PSEL(SPIM_SCK,1,13)>, <NRF_PSEL(SPIM_MOSI,1,15)>; low-power-enable; }; };
+    theme_pwm_default: theme_pwm_default { group1 { psels = <NRF_PSEL(PWM_OUT0,1,11)>; nordic,invert; }; };
+    theme_pwm_sleep: theme_pwm_sleep { group1 { psels = <NRF_PSEL(PWM_OUT0,1,11)>; low-power-enable; }; };
+};
+&spi3 { status = "okay"; pinctrl-0 = <&theme_spi_default>; pinctrl-1 = <&theme_spi_sleep>; pinctrl-names = "default", "sleep"; cs-gpios = <&xiao_d 9 GPIO_ACTIVE_LOW>; };
+&pwm1 { status = "okay"; pinctrl-0 = <&theme_pwm_default>; pinctrl-1 = <&theme_pwm_sleep>; pinctrl-names = "default", "sleep"; };
+&i2c1 {
+    status = "okay";
+    theme_touch: cst816s@15 { compatible = "hynitron,cst816s"; reg = <0x15>;
+        irq-gpios = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; rst-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>;
+    };
+};

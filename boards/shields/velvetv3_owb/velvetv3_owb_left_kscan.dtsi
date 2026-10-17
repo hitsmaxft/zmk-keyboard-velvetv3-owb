@@ -1,0 +1,8 @@
+#include "velvetv3_owb_kscan.dtsi"
+
+&velvetv3_owb_kscan {
+        // Left: A1=C1, A0=C2, D15=C3, D14=C4, D16=C5, D10=C6.
+        col-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>, <&gpio1 15 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 13 GPIO_ACTIVE_HIGH>, <&gpio1 11 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 10 GPIO_ACTIVE_HIGH>, <&gpio0 9 GPIO_ACTIVE_HIGH>;
+};

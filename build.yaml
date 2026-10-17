@@ -1,0 +1,34 @@
+---
+include:
+  # Default hardware: nice!nano v2; ZMK/Zephyr 4.1 qualified board target.
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_left
+    snippet: studio-rpc-usb-uart nrf52840-nosd
+    artifact-name: velvetv3_owb_left
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_right
+    snippet: nrf52840-nosd
+    artifact-name: velvetv3_owb_right
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_ph_left
+    snippet: nrf52840-nosd
+    artifact-name: velvetv3_owb_ph_left
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_dongle_adapter
+    snippet: studio-rpc-usb-uart nrf52840-nosd
+    artifact-name: velvetv3_owb_dongle
+  # The holder routes D2/MOSI, D3/SCK and D1/CS to its nice!view socket.
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_left nice_view_adapter nice_view
+    snippet: studio-rpc-usb-uart nrf52840-nosd
+    artifact-name: velvetv3_owb_left_niceview
+  - board: nice_nano//zmk
+    shield: velvetv3_owb_right nice_view_adapter nice_view
+    snippet: nrf52840-nosd
+    artifact-name: velvetv3_owb_right_niceview
+  # Public Neon Cat theme on a XIAO/Prospector ST7789+CST816S dongle.
+  - board: xiao_ble/nrf52840/zmk
+    shield: velvetv3_owb_dongle_adapter velvetv3_owb_neoncat_display dongle_screen_host
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZDSE_NEON_CAT_THEME=y -DCONFIG_ZMK_DONGLE_SCREEN_DIRECT_RGB565=y -DCONFIG_ZMK_DONGLE_SCREEN_BACKEND_COHERENT_STRIP=y -DCONFIG_ZMK_DONGLE_SCREEN_STRIP_PIXELS=17920 -DCONFIG_ZMK_DONGLE_SCREEN_FPS=24
+    artifact-name: velvetv3_owb_neoncat_dongle

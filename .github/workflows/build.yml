@@ -1,0 +1,22 @@
+name: Build ZMK firmware
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "boards/**"
+      - "config/**"
+      - "build.yaml"
+      - "zephyr/**"
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+jobs:
+  matrix-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check_matrix.py
+      - run: python3 scripts/render_layout.py --check
+  build:
+    needs: matrix-check
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main

@@ -1,0 +1,2 @@
+#include "velvetv3_owb.dtsi"
+#include "velvetv3_owb_left_kscan.dtsi"

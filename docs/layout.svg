@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-label="Velvet V3 OWB 46-key physical layout and electrical matrix">
+<rect x="0" y="0" width="1600" height="650" fill="#111827"/>
+<text x="40" y="35" fill="#f9fafb" font-family="Arial,sans-serif" font-size="25">Velvet V3 OWB · 46 keys</text>
+<text x="40" y="57" fill="#9ca3af" font-family="Arial,sans-serif" font-size="14">EDA switch centers · labels show electrical ROW/COL · gold: physical R4C1, electrical C5</text>
+<polygon points="46.0,126.0 134.0,126.0 134.0,214.0 46.0,214.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="90" y="164" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C6</text>
+<text x="90" y="187" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K1</text>
+<polygon points="146.0,126.0 234.0,126.0 234.0,214.0 146.0,214.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="190" y="164" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C5</text>
+<text x="190" y="187" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K4</text>
+<polygon points="246.0,76.0 334.0,76.0 334.0,164.0 246.0,164.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="290" y="114" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C4</text>
+<text x="290" y="137" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K8</text>
+<polygon points="346.0,61.0 434.0,61.0 434.0,149.0 346.0,149.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="390" y="99" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C3</text>
+<text x="390" y="122" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K12</text>
+<polygon points="446.0,71.0 534.0,71.0 534.0,159.0 446.0,159.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="490" y="109" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C2</text>
+<text x="490" y="132" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K16</text>
+<polygon points="546.0,71.0 634.0,71.0 634.0,159.0 546.0,159.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="590" y="109" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C1</text>
+<text x="590" y="132" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K20</text>
+<polygon points="932.0,71.0 1020.0,71.0 1020.0,159.0 932.0,159.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="976" y="109" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C1</text>
+<text x="976" y="132" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K24</text>
+<polygon points="1032.0,71.0 1120.0,71.0 1120.0,159.0 1032.0,159.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1076" y="109" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C2</text>
+<text x="1076" y="132" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K28</text>
+<polygon points="1132.0,60.0 1220.0,60.0 1220.0,148.0 1132.0,148.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1176" y="98" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C3</text>
+<text x="1176" y="121" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K32</text>
+<polygon points="1232.0,76.0 1320.0,76.0 1320.0,164.0 1232.0,164.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1276" y="114" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C4</text>
+<text x="1276" y="137" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K36</text>
+<polygon points="1332.0,126.0 1420.0,126.0 1420.0,214.0 1332.0,214.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1376" y="164" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C5</text>
+<text x="1376" y="187" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K40</text>
+<polygon points="1432.0,126.0 1520.0,126.0 1520.0,214.0 1432.0,214.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1476" y="164" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R1C6</text>
+<text x="1476" y="187" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K44</text>
+<polygon points="46.0,244.0 134.0,244.0 134.0,332.0 46.0,332.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="90" y="282" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C6</text>
+<text x="90" y="305" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K2</text>
+<polygon points="146.0,244.0 234.0,244.0 234.0,332.0 146.0,332.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="190" y="282" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C5</text>
+<text x="190" y="305" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K5</text>
+<polygon points="246.0,194.0 334.0,194.0 334.0,282.0 246.0,282.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="290" y="232" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C4</text>
+<text x="290" y="255" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K9</text>
+<polygon points="346.0,178.0 434.0,178.0 434.0,266.0 346.0,266.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="390" y="216" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C3</text>
+<text x="390" y="239" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K13</text>
+<polygon points="446.0,188.0 534.0,188.0 534.0,276.0 446.0,276.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="490" y="226" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C2</text>
+<text x="490" y="249" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K17</text>
+<polygon points="546.0,188.0 634.0,188.0 634.0,276.0 546.0,276.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="590" y="226" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C1</text>
+<text x="590" y="249" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K21</text>
+<polygon points="932.0,188.0 1020.0,188.0 1020.0,276.0 932.0,276.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="976" y="226" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C1</text>
+<text x="976" y="249" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K25</text>
+<polygon points="1032.0,188.0 1120.0,188.0 1120.0,276.0 1032.0,276.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1076" y="226" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C2</text>
+<text x="1076" y="249" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K29</text>
+<polygon points="1132.0,178.0 1220.0,178.0 1220.0,266.0 1132.0,266.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1176" y="216" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C3</text>
+<text x="1176" y="239" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K33</text>
+<polygon points="1232.0,193.0 1320.0,193.0 1320.0,281.0 1232.0,281.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1276" y="231" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C4</text>
+<text x="1276" y="254" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K37</text>
+<polygon points="1332.0,244.0 1420.0,244.0 1420.0,332.0 1332.0,332.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1376" y="282" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C5</text>
+<text x="1376" y="305" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K41</text>
+<polygon points="1432.0,244.0 1520.0,244.0 1520.0,332.0 1432.0,332.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1476" y="282" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R2C6</text>
+<text x="1476" y="305" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K45</text>
+<polygon points="46.0,361.0 134.0,361.0 134.0,449.0 46.0,449.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="90" y="399" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C6</text>
+<text x="90" y="422" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K3</text>
+<polygon points="146.0,361.0 234.0,361.0 234.0,449.0 146.0,449.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="190" y="399" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C5</text>
+<text x="190" y="422" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K6</text>
+<polygon points="246.0,311.0 334.0,311.0 334.0,399.0 246.0,399.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="290" y="349" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C4</text>
+<text x="290" y="372" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K10</text>
+<polygon points="346.0,295.0 434.0,295.0 434.0,383.0 346.0,383.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="390" y="333" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C3</text>
+<text x="390" y="356" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K14</text>
+<polygon points="446.0,306.0 534.0,306.0 534.0,394.0 446.0,394.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="490" y="344" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C2</text>
+<text x="490" y="367" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K18</text>
+<polygon points="546.0,306.0 634.0,306.0 634.0,394.0 546.0,394.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="590" y="344" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C1</text>
+<text x="590" y="367" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K22</text>
+<polygon points="932.0,306.0 1020.0,306.0 1020.0,394.0 932.0,394.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="976" y="344" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C1</text>
+<text x="976" y="367" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K26</text>
+<polygon points="1032.0,306.0 1120.0,306.0 1120.0,394.0 1032.0,394.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1076" y="344" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C2</text>
+<text x="1076" y="367" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K30</text>
+<polygon points="1132.0,295.0 1220.0,295.0 1220.0,383.0 1132.0,383.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1176" y="333" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C3</text>
+<text x="1176" y="356" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K34</text>
+<polygon points="1232.0,311.0 1320.0,311.0 1320.0,399.0 1232.0,399.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1276" y="349" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C4</text>
+<text x="1276" y="372" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K38</text>
+<polygon points="1332.0,361.0 1420.0,361.0 1420.0,449.0 1332.0,449.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1376" y="399" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C5</text>
+<text x="1376" y="422" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K42</text>
+<polygon points="1432.0,361.0 1520.0,361.0 1520.0,449.0 1432.0,449.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1476" y="399" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R3C6</text>
+<text x="1476" y="422" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K46</text>
+<polygon points="246.0,428.0 334.0,428.0 334.0,516.0 246.0,516.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="290" y="466" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C4</text>
+<text x="290" y="489" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K11</text>
+<polygon points="346.0,412.0 434.0,412.0 434.0,500.0 346.0,500.0" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="390" y="450" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C3</text>
+<text x="390" y="473" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K15</text>
+<polygon points="484.3,452.0 571.0,467.3 555.7,554.0 469.0,538.7" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="520" y="497" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C2</text>
+<text x="520" y="520" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K19</text>
+<polygon points="602.7,475.6 685.4,505.7 655.3,588.4 572.6,558.3" fill="#2563eb" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="629" y="526" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C1</text>
+<text x="629" y="549" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K23</text>
+<polygon points="714.9,518.9 791.1,562.9 747.1,639.1 670.9,595.1" fill="#d97706" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="731" y="573" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C5</text>
+<text x="731" y="596" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K7</text>
+<polygon points="771.9,562.9 848.1,518.9 892.1,595.1 815.9,639.1" fill="#d97706" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="832" y="573" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C5</text>
+<text x="832" y="596" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K43</text>
+<polygon points="877.6,504.7 960.3,474.6 990.4,557.3 907.7,587.4" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="934" y="525" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C1</text>
+<text x="934" y="548" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K27</text>
+<polygon points="992.0,467.3 1078.7,452.0 1094.0,538.7 1007.3,554.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1043" y="497" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C2</text>
+<text x="1043" y="520" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K31</text>
+<polygon points="1132.0,412.0 1220.0,412.0 1220.0,500.0 1132.0,500.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1176" y="450" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C3</text>
+<text x="1176" y="473" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K35</text>
+<polygon points="1232.0,428.0 1320.0,428.0 1320.0,516.0 1232.0,516.0" fill="#059669" stroke="#e5e7eb" stroke-width="2" stroke-linejoin="round"/>
+<text x="1276" y="466" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">R4C4</text>
+<text x="1276" y="489" text-anchor="middle" fill="#e5e7eb" font-family="Arial,sans-serif" font-size="12">K39</text>
+</svg>

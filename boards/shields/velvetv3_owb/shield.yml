@@ -1,0 +1,11 @@
+file_format: "1"
+id: velvetv3_owb
+name: Velvet V3 OWB
+type: shield
+url: https://github.com/hitsmaxft/zmk-keyboard-velvetv3-owb
+requires: [pro_micro]
+features: [keys, studio]
+siblings:
+  - velvetv3_owb_left
+  - velvetv3_owb_ph_left
+  - velvetv3_owb_right
