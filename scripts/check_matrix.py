@@ -102,9 +102,9 @@ def main() -> None:
             reference = components["K1"]["location"]
             position = component["location"]
             expected_x = round((position[0] - reference[0]) * 100 / 19.05)
-            expected_y_delta = round((reference[1] - position[1]) * 100 / 19.05)
-            assert abs(int(record["x_centi_u"]) - expected_x) <= 1, record
-            assert abs(int(record["y_centi_u"]) - int(matrix[0]["y_centi_u"]) - expected_y_delta) <= 1, record
+            assert int(record["x_centi_u"]) == expected_x, record
+            expected_y = round((reference[1] - position[1]) * 100 / 19.05 + int(matrix[0]["y_centi_u"]))
+            assert int(record["y_centi_u"]) == expected_y, record
             assert int(record["rotation_centi_deg"]) == round((180 - component["rotation"]) * 100), record
     print("OK: 46 physical coordinates, 46 unique RC cells, both GPIO maps, and thumb C5 correction")
 

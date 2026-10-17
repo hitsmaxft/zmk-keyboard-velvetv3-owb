@@ -6,7 +6,7 @@
 
 ![依据 EDA 轴心生成的 46 键物理布局及电气 ROW/COL](docs/layout.svg)
 
-图中左手蓝色、右手绿色、拇指 R4C5 金色。**左右最内侧的物理 R4C1 轴位，电气网络实际是 R4C5。** ZMK 的矩阵变换按这个真实网络纠正；其他 ROW/COL 和母座针序均未改动。46 个轴位与旋角见 [`docs/matrix-map.csv`](docs/matrix-map.csv)。`python3 scripts/check_matrix.py --eda /path/to/reloaded-native.json` 可逐键核对实际 EDA 网络和坐标；`python3 scripts/render_layout.py --check` 可确认图与坐标表一致。
+图中左手蓝色、右手绿色、拇指 R4C5 金色。**左右最内侧的物理 R4C1 轴位，电气网络实际是 R4C5。** ZMK 的矩阵变换按这个真实网络纠正；其他 ROW/COL 和母座针序均未改动。46 个轴位与旋角见 [`docs/matrix-map.csv`](docs/matrix-map.csv)。坐标按最近的 0.01U 网格取整，当前最大轴心误差为 0.128 mm。`python3 scripts/check_matrix.py --eda /path/to/reloaded-native.json` 可逐键核对实际 EDA 网络和坐标；`python3 scripts/render_layout.py --check` 可确认图片与 ZMK 物理布局均跟坐标表一致。
 
 | 固件 | 用途 |
 | --- | --- |

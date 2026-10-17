@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the review SVG from the EDA-derived matrix position table."""
+"""Generate ZMK physical positions and review SVG from one EDA-derived table."""
 
 import argparse
 import csv
@@ -9,12 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/matrix-map.csv"
 DESTINATION = ROOT / "docs/layout.svg"
+LAYOUT_DTSI = ROOT / "boards/shields/velvetv3_owb/velvetv3_owb-layouts.dtsi"
 
 
-def render() -> str:
-    with SOURCE.open(newline="") as file:
-        records = list(csv.DictReader(file))
-    assert len(records) == 46
+def render(records: list[dict[str, str]]) -> str:
     lines = [
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-label="Velvet V3 OWB 46-key physical layout and electrical matrix">',
         '<rect x="0" y="0" width="1600" height="650" fill="#111827"/>',
@@ -48,13 +46,42 @@ def render() -> str:
     return "\n".join([*lines, "</svg>", ""])
 
 
+def render_dtsi(records: list[dict[str, str]]) -> str:
+    lines = [
+        "#include <physical_layouts.dtsi>",
+        "/ {",
+        "    velvetv3_owb_layout: velvetv3_owb_layout {",
+        '        compatible = "zmk,physical-layout";',
+        '        display-name = "Velvet V3 OWB 46";',
+        "        transform = <&velvetv3_owb_transform>;",
+        "        keys =",
+    ]
+    for index, position in enumerate(records):
+        x = int(position["x_centi_u"])
+        y = int(position["y_centi_u"])
+        angle = int(position["rotation_centi_deg"])
+        angle_text = f"({angle})" if angle < 0 else str(angle)
+        prefix = "              " if index == 0 else "            , "
+        lines.append(
+            f"{prefix}<&key_physical_attrs 100 100 {x} {y} {angle_text} {x+50} {y+50}> "
+            f"// {position['switch']} {position['col_net']}/{position['row_net']}"
+        )
+    return "\n".join([*lines, "        ;", "    };", "};", ""])
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="fail if the checked-in SVG is stale")
     args = parser.parse_args()
-    content = render()
+    with SOURCE.open(newline="") as file:
+        records = list(csv.DictReader(file))
+    assert len(records) == 46
+    content = render(records)
+    dtsi = render_dtsi(records)
     if args.check:
         assert DESTINATION.read_text() == content, "docs/layout.svg is stale"
-        print("OK: physical layout SVG matches all 46 CSV positions")
+        assert LAYOUT_DTSI.read_text() == dtsi, "ZMK physical layout DTSI is stale"
+        print("OK: SVG and ZMK physical layout both match all 46 CSV positions")
     else:
         DESTINATION.write_text(content)
+        LAYOUT_DTSI.write_text(dtsi)

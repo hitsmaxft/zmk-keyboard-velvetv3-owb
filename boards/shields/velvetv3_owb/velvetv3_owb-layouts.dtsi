@@ -8,7 +8,7 @@
               <&key_physical_attrs 100 100 0 70 0 50 120> // K1 C6L/R1L
             , <&key_physical_attrs 100 100 100 70 0 150 120> // K4 C5L/R1L
             , <&key_physical_attrs 100 100 200 20 0 250 70> // K8 C4L/R1L
-            , <&key_physical_attrs 100 100 300 5 0 350 55> // K12 C3L/R1L
+            , <&key_physical_attrs 100 100 300 4 0 350 54> // K12 C3L/R1L
             , <&key_physical_attrs 100 100 400 15 0 450 65> // K16 C2L/R1L
             , <&key_physical_attrs 100 100 500 15 0 550 65> // K20 C1L/R1L
             , <&key_physical_attrs 100 100 886 15 0 936 65> // K24 C1R/R1R
@@ -17,38 +17,38 @@
             , <&key_physical_attrs 100 100 1186 20 0 1236 70> // K36 C4R/R1R
             , <&key_physical_attrs 100 100 1286 70 0 1336 120> // K40 C5R/R1R
             , <&key_physical_attrs 100 100 1386 70 0 1436 120> // K44 C6R/R1R
-            , <&key_physical_attrs 100 100 0 188 0 50 238> // K2 C6L/R2L
-            , <&key_physical_attrs 100 100 100 188 0 150 238> // K5 C5L/R2L
-            , <&key_physical_attrs 100 100 200 138 0 250 188> // K9 C4L/R2L
-            , <&key_physical_attrs 100 100 300 122 0 350 172> // K13 C3L/R2L
+            , <&key_physical_attrs 100 100 0 187 0 50 237> // K2 C6L/R2L
+            , <&key_physical_attrs 100 100 100 187 0 150 237> // K5 C5L/R2L
+            , <&key_physical_attrs 100 100 200 137 0 250 187> // K9 C4L/R2L
+            , <&key_physical_attrs 100 100 300 121 0 350 171> // K13 C3L/R2L
             , <&key_physical_attrs 100 100 400 132 0 450 182> // K17 C2L/R2L
             , <&key_physical_attrs 100 100 500 132 0 550 182> // K21 C1L/R2L
             , <&key_physical_attrs 100 100 886 132 0 936 182> // K25 C1R/R2R
             , <&key_physical_attrs 100 100 986 132 0 1036 182> // K29 C2R/R2R
-            , <&key_physical_attrs 100 100 1086 122 0 1136 172> // K33 C3R/R2R
+            , <&key_physical_attrs 100 100 1086 121 0 1136 171> // K33 C3R/R2R
             , <&key_physical_attrs 100 100 1186 137 0 1236 187> // K37 C4R/R2R
-            , <&key_physical_attrs 100 100 1286 188 0 1336 238> // K41 C5R/R2R
-            , <&key_physical_attrs 100 100 1386 188 0 1436 238> // K45 C6R/R2R
-            , <&key_physical_attrs 100 100 0 305 0 50 355> // K3 C6L/R3L
-            , <&key_physical_attrs 100 100 100 305 0 150 355> // K6 C5L/R3L
-            , <&key_physical_attrs 100 100 200 255 0 250 305> // K10 C4L/R3L
+            , <&key_physical_attrs 100 100 1286 187 0 1336 237> // K41 C5R/R2R
+            , <&key_physical_attrs 100 100 1386 187 0 1436 237> // K45 C6R/R2R
+            , <&key_physical_attrs 100 100 0 304 0 50 354> // K3 C6L/R3L
+            , <&key_physical_attrs 100 100 100 304 0 150 354> // K6 C5L/R3L
+            , <&key_physical_attrs 100 100 200 254 0 250 304> // K10 C4L/R3L
             , <&key_physical_attrs 100 100 300 239 0 350 289> // K14 C3L/R3L
-            , <&key_physical_attrs 100 100 400 250 0 450 300> // K18 C2L/R3L
-            , <&key_physical_attrs 100 100 500 250 0 550 300> // K22 C1L/R3L
-            , <&key_physical_attrs 100 100 886 250 0 936 300> // K26 C1R/R3R
-            , <&key_physical_attrs 100 100 986 250 0 1036 300> // K30 C2R/R3R
+            , <&key_physical_attrs 100 100 400 249 0 450 299> // K18 C2L/R3L
+            , <&key_physical_attrs 100 100 500 249 0 550 299> // K22 C1L/R3L
+            , <&key_physical_attrs 100 100 886 249 0 936 299> // K26 C1R/R3R
+            , <&key_physical_attrs 100 100 986 249 0 1036 299> // K30 C2R/R3R
             , <&key_physical_attrs 100 100 1086 239 0 1136 289> // K34 C3R/R3R
             , <&key_physical_attrs 100 100 1186 255 0 1236 305> // K38 C4R/R3R
-            , <&key_physical_attrs 100 100 1286 305 0 1336 355> // K42 C5R/R3R
-            , <&key_physical_attrs 100 100 1386 305 0 1436 355> // K46 C6R/R3R
+            , <&key_physical_attrs 100 100 1286 304 0 1336 354> // K42 C5R/R3R
+            , <&key_physical_attrs 100 100 1386 304 0 1436 354> // K46 C6R/R3R
             , <&key_physical_attrs 100 100 200 372 0 250 422> // K11 C4L/R4L
             , <&key_physical_attrs 100 100 300 356 0 350 406> // K15 C3L/R4L
-            , <&key_physical_attrs 100 100 430 403 1000 480 453> // K19 C2L/R4L
-            , <&key_physical_attrs 100 100 539 432 2000 589 482> // K23 C1L/R4L
+            , <&key_physical_attrs 100 100 430 402 1000 480 452> // K19 C2L/R4L
+            , <&key_physical_attrs 100 100 539 431 2000 589 481> // K23 C1L/R4L
             , <&key_physical_attrs 100 100 641 479 3000 691 529> // K7 C5L/R4L
             , <&key_physical_attrs 100 100 742 479 (-3000) 792 529> // K43 C5R/R4R
             , <&key_physical_attrs 100 100 844 431 (-2000) 894 481> // K27 C1R/R4R
-            , <&key_physical_attrs 100 100 953 403 (-1000) 1003 453> // K31 C2R/R4R
+            , <&key_physical_attrs 100 100 953 402 (-1000) 1003 452> // K31 C2R/R4R
             , <&key_physical_attrs 100 100 1086 356 0 1136 406> // K35 C3R/R4R
             , <&key_physical_attrs 100 100 1186 372 0 1236 422> // K39 C4R/R4R
         ;

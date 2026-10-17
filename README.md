@@ -48,7 +48,7 @@ python3 scripts/check_matrix.py --eda /path/to/reloaded-native.json
 ```
 
 Without `--eda`, the checker validates all 46 matrix positions, transform uniqueness, both GPIO maps, and physical-layout count from this repository alone.
-Run `python3 scripts/render_layout.py --check` to verify that the README diagram still matches those coordinates.
+Run `python3 scripts/render_layout.py --check` to verify that the README diagram and ZMK physical-layout DTSI both match those coordinates. EDA centers are rounded to the nearest 0.01 keyboard unit; the largest center error in the current 46-key table is 0.128 mm.
 
 ## Build and installation
 
